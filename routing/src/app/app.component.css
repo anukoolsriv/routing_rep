@@ -1,0 +1,19 @@
+div {
+    text-align: left;
+    font-family: 'Trebuchet MS';
+    font-size: medium;
+}
+
+.header a {
+    text-decoration: none;
+    padding: 0.5% 2%;
+    background-color: antiquewhite;
+    border-radius: 5px 20px;
+    opacity: 0.3;
+}
+
+.header a:hover {
+    opacity: 1;
+    transition: ease-in 2s;
+    font-size: 100px;
+}

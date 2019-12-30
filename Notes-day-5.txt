@@ -1,0 +1,63 @@
+- obtain JSON object of github account
+https://api.github.com/users/anukoolsriv
+
+create new component in angular
+- ng generate component ajax-comm = ng g c ajax-comm // same way to create a component
+
+	app ---------------> app-ajax-comm
+		Child
+
+- ngModel - one of inbuild directives present in angular
+		- component directive
+		- attribute directive -ngModel
+		- structural directive
+
+--------------------------------------------
+- learn response status from 100 to 500
+
+- structural directives (begin with '*')
+	- *ngIf directive - conditionally display a block - does not hide, simply removes it
+		- <*ngIf="flag; else else_block"> display another block with given i'd if this is hidden
+		  <ng-template #else_block> - else block content
+	- *ngFor - 
+	- *ngSwitch
+
+- Structural directives - change structure of DOM
+
+- ngOnInit() - present in OnInit() interface - and is called once the component is initialised
+ ngOnChange(), ngOnDelete() - 
+
+
+- ng g class employee - to create a typescript class
+- export class Employee - make this class available for import
+
+- services	- stores common data required by multiple components (real life example??)
+		- singleton objects in angular
+		- ng g s employee: generate service
+		
+
+- > EmployeeListComponent wants to call method from EmployeeService, so we 
+	require object of EmployeeService inside EmployeeListComponent
+- > If 'new' operator is used to create EmployeeService object above, then we
+	can say EmployeeListComponent is tightly coupled with EmployeeService
+- > Dependency Injection will help to remove tight coupling (???)
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------
+Assessment 2 :
+	20 - HTML+CSS+Javascript+jQuery
+	10 - Angular
+	10 - JSP + Servlet
+	10 - REST APIs
+----------------
+	50

@@ -1,0 +1,16 @@
+body {
+    background-image: url("/assets/bck.jpg");
+    background-size: cover;
+    color: orange;
+}
+
+img {
+    opacity: 0;
+}
+
+img:hover {
+    transition: 5s;
+    height: 500px;
+    width: 1000px;
+    opacity: 10;
+}
